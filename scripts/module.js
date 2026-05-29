@@ -29,4 +29,14 @@ Hooks.on("diceSoNiceReady", (dice3d) => {
         modelFile: 'modules/vc-customdices/models/carrion/d8-carrion.glb',
         system: 'carrion'
     });
+    dice3d.addDicePreset({                
+        type: 'd10',
+        modelFile: 'modules/vc-customdices/models/carrion/d10-carrion.glb',
+        system: 'carrion'
+    });
+    dice3d.addDicePreset({                
+        type: 'd12',
+        modelFile: 'modules/vc-customdices/models/carrion/d12-carrion.glb',
+        system: 'carrion'
+    });
 });
