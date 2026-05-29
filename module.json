@@ -1,0 +1,32 @@
+{
+  "id": "vc-customdices",
+  "title": "VC-CustomDices",
+  "version": "0.3",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "authors": [
+    {
+      "name": "VoyeurConejo",
+      "discord": "Alpharius",
+      "flags": {}
+    }
+  ],
+  "flags": {
+    "canUpload": true
+  },
+  "esmodules": [
+    "scripts/module.js"
+  ],  
+  "relationships": {
+    "requires": [
+      {
+        "id": "dice-so-nice",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": ""
+}
