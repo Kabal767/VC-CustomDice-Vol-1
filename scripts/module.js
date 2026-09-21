@@ -2,6 +2,7 @@ Hooks.on("diceSoNiceReady", (dice3d) => {
     dice3d.addSystem({ id: "voyeur", name: "(+)Voyeur", group: "Voyeur Conejo" }, "default");
     dice3d.addSystem({ id: "artDeco", name: "ArtDeco", group: "Voyeur Conejo" }, "default");
     dice3d.addSystem({ id: "carrion", name: "Carrion", group: "Voyeur Conejo" }, "default");
+    dice3d.addSystem({ id: "urik", name: "Urik", group: "Voyeur Conejo" }, "default");
 
     //VOYEUR
     dice3d.addDicePreset({                
@@ -62,5 +63,52 @@ Hooks.on("diceSoNiceReady", (dice3d) => {
         type: 'd100',
         modelFile: 'modules/vc-customdices/models/carrion/d100-carrion.glb',
         system: 'carrion'
+    });
+
+    //URIK
+    dice3d.addDicePreset({                
+        type: 'dc',
+        modelFile: 'modules/vc-customdices/models/urik/dc-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd2',
+        modelFile: 'modules/vc-customdices/models/urik/d2-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd4',
+        modelFile: 'modules/vc-customdices/models/urik/d4-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd6',
+        modelFile: 'modules/vc-customdices/models/urik/d6-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd8',
+        modelFile: 'modules/vc-customdices/models/urik/d8-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd10',
+        modelFile: 'modules/vc-customdices/models/urik/d10-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd20',
+        modelFile: 'modules/vc-customdices/models/urik/d20-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd12',
+        modelFile: 'modules/vc-customdices/models/urik/d12-urik.glb',
+        system: 'urik'
+    });
+    dice3d.addDicePreset({                
+        type: 'd100',
+        modelFile: 'modules/vc-customdices/models/urik/d100-urik.glb',
+        system: 'urik'
     });
 });
